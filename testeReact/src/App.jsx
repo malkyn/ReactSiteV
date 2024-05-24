@@ -6,15 +6,19 @@
 
 import Students from './components/Students/Students';
 import Button from './Button'
+import UserGreeting from './components/UserGreeting/UserGreeting';
+import Navbar from './components/Navbar/Navbar';
+import UndertalePage from './views/Undertale/UndertalePage';
+
 function App() {
  
   return(
+    
     <>
-      <Students name="SpongeBob" age={30}isStudent={true}></Students>
-      <Students name="Patrick" age={42}isStudent={false}></Students>
-      <Students name="Squidward" age={50}isStudent={false}></Students>
-      <Students name="Sandy" age={27}isStudent={true}></Students>
-      <Students></Students>
+      <Navbar></Navbar>
+      <div className='container' style={{ marginTop: '100px' }}>
+        <UndertalePage />
+      </div>
     </>
   );
 }
