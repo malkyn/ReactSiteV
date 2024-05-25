@@ -9,16 +9,17 @@ import Button from './Button'
 import UserGreeting from './components/UserGreeting/UserGreeting';
 import Navbar from './components/Navbar/Navbar';
 import UndertalePage from './views/Undertale/UndertalePage';
+import Footer from './components/Footer/Footer'
 
 function App() {
  
   return(
-    
     <>
       <Navbar></Navbar>
       <div className='container' style={{ marginTop: '100px' }}>
         <UndertalePage />
       </div>
+      <Footer></Footer>
     </>
   );
 }

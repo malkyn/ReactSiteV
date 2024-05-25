@@ -1,5 +1,5 @@
 import style from './Navbar.module.css'
-import image from '../../assets/images/logosindieverso 2.png'
+import image from '../../assets/images/eshowslogo.png'
 function Navbar(){
 
     return(

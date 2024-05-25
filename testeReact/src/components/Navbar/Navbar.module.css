@@ -23,14 +23,14 @@
     width: 120px;
     height: 40px;
     border: 0;
-    background-color: rgb(107, 6, 107);
+    background-color: #181c25;
     color: #fff;
     cursor: pointer;
     transition:  .2;
   }
 
   .btnContato button:hover{
-    background-color: rgb(64, 7, 64);
+    background-color: #232529;
   }
 
   .container{
@@ -54,7 +54,7 @@
 
   header ul li a{
     font-size: 1.2em;
-    color: #ffffff;
+    color: #41495a;
     text-decoration: none;
     font-weight: 1000;
   }
@@ -65,11 +65,11 @@
     width: 100%;
     display: flex;
     position:  fixed;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(255, 255, 255);
     top: 0;
     left: 0;
     padding: 1px 4%;
-    box-shadow: 0px 1px 10px #76428a;
+    box-shadow: 0px 1px 10px #6d6d6d;
   }
 
 
