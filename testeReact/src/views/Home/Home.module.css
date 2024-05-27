@@ -4,7 +4,7 @@
 /*Primeiro definimos o conteúdo da página, onde damos a propriedade relativa e um afastamento de 18% do top*/
 .pageContent{
     margin: auto;
-    background-color: #484649;
+    background-color: #aba8ad;
     position: relative;
     top: 18%;
 }
@@ -97,7 +97,7 @@ section.vspotlight img.thumb:hover{
 }
 
 
-section.vspotlight .tituloSection h2{
+section.vspotlight .tituloSection h2, section.hspotlight .tituloSection h2{
     color: #000000;
 }
 

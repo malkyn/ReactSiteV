@@ -37,7 +37,7 @@ function Home(){
                 </section>
                 <section className={style.hspotlight}>
                     <div className={style.wrap}>
-                        <div className={style.tituloSection}><h2>Notícias</h2></div>
+                    <div className={style.tituloSection}><a href=""><h2>Notícias</h2></a></div>
                         <article className={style.card}>
                             <a href="undertale" className={style.thumb}>
                                 <img src={undertalepng} alt="" className={style.thumb}/>
