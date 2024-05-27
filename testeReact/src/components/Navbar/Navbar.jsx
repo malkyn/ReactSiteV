@@ -1,4 +1,5 @@
 import style from './Navbar.module.css'
+import { Link } from "react-router-dom";
 import image from '../../assets/images/eshowslogo.png'
 function Navbar(){
 
@@ -6,17 +7,17 @@ function Navbar(){
         <header id={style.id}>
             <div className={style.container}>
                 <div className={style.flex}>
-                    <a href="/"><img src={image} alt="" /></a>
+                    <Link to="/"><img src={image} alt="" /></Link>
                     <nav>
                         <ul>
-                            <li><a href="#">JOGOS</a></li>
-                            <li><a href="undertale">NOTÍCIAS</a></li>
-                            <li><a href="#">DESENVOLVIMENTO</a></li>
+                            <li><Link to="/">JOGOS</Link></li>
+                            <li><Link to="undertale">NOTÍCIAS</Link></li>
+                            <li><Link to="#">DESENVOLVIMENTO</Link></li>
                         </ul>
                     </nav>
 
                     <div className={style.btnContato}>
-                        <a href="#"><button>CONTATO</button></a>
+                        <Link to="#"><button>CONTATO</button></Link>
                     </div>
                 </div>
             </div>

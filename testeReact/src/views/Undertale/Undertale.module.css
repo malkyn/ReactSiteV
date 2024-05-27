@@ -44,7 +44,6 @@ body{
     background: inherit;
   }
   .pageContent > div:not(.ad-wrapper) {
-    /* background: white; */
     margin: 0px 0px;
     box-sizing: border-box;
   }

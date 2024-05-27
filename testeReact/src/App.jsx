@@ -15,14 +15,12 @@ function App() {
   return(
     <>
     <div className="App">
+    <Navbar> </Navbar>
       <div className='container' style={{ marginTop: '100px' }}>
-      <Navbar> </Navbar>
       <Outlet></Outlet>
       </div>
       <Footer></Footer>
-     
     </div>
-    
     </>
   );
 }
