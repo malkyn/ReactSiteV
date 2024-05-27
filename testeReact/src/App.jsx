@@ -1,13 +1,28 @@
+/* eslint-disable no-unused-vars */
 //External é bom para estilos globais
 //Modules é bom para components com mais estilizações
 //Inline é bom para componentes menores com pouco estilo
 
-import Button from './Button'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar/Navbar';
+import UndertalePage from './views/Undertale/UndertalePage';
+import Footer from './components/Footer/Footer'
+import { Outlet } from 'react-router-dom';
+
 function App() {
  
   return(
     <>
-      <Button></Button>
+    <div className="App">
+      <div className='container' style={{ marginTop: '100px' }}>
+      <Navbar> </Navbar>
+      <Outlet></Outlet>
+      </div>
+      <Footer></Footer>
+     
+    </div>
+    
     </>
   );
 }

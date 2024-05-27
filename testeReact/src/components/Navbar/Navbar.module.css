@@ -1,0 +1,78 @@
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*Garante que os elementos fiquem bem divididos nas extremidades*/
+
+  }
+
+  .flex img{
+    /* margin-top: 10px; */
+
+  width: 100px;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s;
+  }
+
+  .btnContato button{
+    border-radius: 3px;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #181c25;
+    color: #fff;
+    cursor: pointer;
+    transition:  .2;
+  }
+
+  .btnContato button:hover{
+    background-color: #232529;
+  }
+
+  .container{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  header i{
+    font-size: 30px;
+    color: white;
+  }
+
+  header ul{
+    list-style-type: none;
+  }
+
+  header ul li{
+    display: inline-block;
+    margin: 0 40px;
+  }
+
+  header ul li a{
+    font-size: 1.2em;
+    color: #41495a;
+    text-decoration: none;
+    font-weight: 1000;
+  }
+
+  header{
+    z-index: 1000;
+    margin-bottom: 150px;
+    width: 100%;
+    display: flex;
+    position:  fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    padding: 1px 4%;
+    box-shadow: 0px 1px 10px #6d6d6d;
+  }
+
+
+
+
+
