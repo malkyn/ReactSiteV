@@ -6,11 +6,11 @@ function Navbar(){
         <header id={style.id}>
             <div className={style.container}>
                 <div className={style.flex}>
-                    <a href=""><img src={image} alt="" /></a>
+                    <a href="/"><img src={image} alt="" /></a>
                     <nav>
                         <ul>
                             <li><a href="#">JOGOS</a></li>
-                            <li><a href="#">NOTÍCIAS</a></li>
+                            <li><a href="undertale">NOTÍCIAS</a></li>
                             <li><a href="#">DESENVOLVIMENTO</a></li>
                         </ul>
                     </nav>

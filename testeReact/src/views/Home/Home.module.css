@@ -1,0 +1,119 @@
+
+
+
+/*Primeiro definimos o conteúdo da página, onde damos a propriedade relativa e um afastamento de 18% do top*/
+.pageContent{
+    margin: auto;
+    background-color: #484649;
+    position: relative;
+    top: 18%;
+}
+
+/*Aqui definimos que o elemento se comportará como uma tabela, o que permite ótimo controle especialmente para alinhamentos verticais e horizontais
+  O padding, na margin estamos centralizando essa sessão, e o boxsizing
+  está considerando o tamanho do padding e a borda
+*/
+section.vspotlight{
+    display: table;
+    padding: 32px 0px;
+    margin: 0px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/*O wrap serve basicamente como um container dentro de vspotlight, onde os cards irão ficar*/
+.wrap{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+article{
+    unicode-bidi: isolate;
+}
+
+section.vspotlight article, section.hspotlight article{
+    display: table-cell; /*define cada artigo como célula de tabela, o que faz com que os itens sejam exibidos em linha*/
+    width: 25%;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+}
+
+article a.thumb{
+    box-sizing: border-box;
+    margin: 0 12px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+section a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+  section.vspotlight article img, section.hspotlight article img{
+    height: 475px;
+    width: 100%;
+    min-width: 100%;
+    transition: transform .5s ease-out;
+    border-radius: 4px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+section.vspotlight .caption, section.hspotlight .caption{
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 24px;
+    min-height: 66px;
+    box-sizing: border-box;
+    background-color: rgba(34, 63, 90, 0.75);
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 900;
+    letter-spacing: 0.005em;
+}
+
+section.vspotlight img.thumb:hover{
+    transform: scale(1.04);
+    transition: transform .75s ease-in-out;
+}
+  
+
+.hspotlight{
+    padding-top: 20px;
+    background-color: #fffeff;
+}
+
+
+section.vspotlight .tituloSection h2{
+    color: #000000;
+}
+
+section.vspotlight .tituloSection a{
+    text-decoration: none;
+}
+
+.tituloSection{
+    font-size: 36px;
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    line-height: 1.2em;
+    display: block;
+    margin: 0px 0px 18px 0px;
+    font-family: 'Inter Var', sans-serif;
+    text-decoration: none;
+  }
+
