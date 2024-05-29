@@ -2,15 +2,10 @@
 
 
 /*Primeiro definimos o conteúdo da página, onde damos a propriedade relativa e um afastamento de 18% do top*/
-.pageContent{
-    margin: auto;
-    background-color: #f6f8f7;
+.page-content {
     position: relative;
     top: 18%;
-    max-width: 1200px;
-    padding: 32px;
 }
-
 /*Aqui definimos que o elemento se comportará como uma tabela, o que permite ótimo controle especialmente para alinhamentos verticais e horizontais
   O padding, na margin estamos centralizando essa sessão, e o boxsizing
   está considerando o tamanho do padding e a borda
@@ -44,7 +39,9 @@ section.vspotlight article, section.hspotlight article{
     position: relative;
     overflow: hidden;
 }
-
+section.vspotlight {
+    display: table;
+}
 article a.thumb{
     box-sizing: border-box;
     margin: 0 12px;
