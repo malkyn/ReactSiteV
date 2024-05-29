@@ -112,7 +112,10 @@ section.vspotlight img.thumb:hover{
     transform: scale(1.04);
     transition: transform .75s ease-in-out;
 }
-  
+
+section.vspotlight .caption:hover {
+    text-decoration: underline;
+}
 section.hspotlight{
     display: block;
     padding: 16px 0px;

@@ -1,0 +1,187 @@
+.pageContent{
+    margin: auto;
+    background-color: #f6f8f7;
+    position: relative;
+    top: 18%;
+    max-width: 1200px;
+    padding: 32px;
+}
+
+
+.wrap {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section.broll div.sideAdTrail {
+    grid-area: rightRail;
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+}
+
+section.broll{
+    grid-template-columns: [mainContent-start] auto [mainContent-end rightRail-start] 320px [rightRail-end];
+    display: grid;
+    margin: 0 auto;
+    max-width: 1200px;
+    grid-gap: 1.5rem;
+}
+
+section.broll{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+section.broll div.tbl{
+    grid-area: mainContent;
+    margin-right: 0;
+}
+
+div.tbl{
+    display: table;
+    position: relative;
+}
+
+section.broll article {
+    display: table-row;
+    position: relative;
+    margin-left: 0;
+}
+
+article{
+    unicode-bidi: isolate;
+}
+
+section.broll div.t {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section.broll div.t, section.broll div.m{
+    border-bottom: solid 1px rgba(37, 38, 39, 0.15);
+}
+
+section.broll div.t{
+    display: table-cell;
+    width: auto;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 25%;
+    max-width: 280;
+    margin: 0;
+    position: relative;
+}
+
+.tbl a.thumb{
+    margin: 0;
+}
+
+article a.thumb{
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+section a{
+    text-decoration: none;
+}
+
+section.broll img.thumb {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    max-height: 120px;
+    max-width: 280px;
+    object-fit: cover;
+    transition: opacity 0.2s ease-out
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+section.broll div.m{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+section.broll div.m{
+    display: table-cell;
+    vertical-align: top;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+section.broll div.m{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid 1px rgba(37, 38, 39, 0.15);
+}
+
+section.broll div.m time, section.broll div.m a.comments {
+    font: 14px 'Inter Var', sans-serif, bold;
+    line-height: 18px;
+    color: #bf1313;
+    text-decoration: none;
+}
+
+
+
+section.broll h3 {
+    margin: 6px 0;
+}
+
+h1, h2, h3 {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+section.broll h3 a {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #252627;
+    text-decoration: none;
+}
+
+section.broll div.m > p {
+    display: block;
+    margin: 0px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+

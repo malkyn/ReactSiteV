@@ -11,7 +11,7 @@ function Navbar(){
                     <nav>
                         <ul>
                             <li><Link to="/">JOGOS</Link></li>
-                            <li><Link to="undertale">NOTÍCIAS</Link></li>
+                            <li><Link to="analise">NOTÍCIAS</Link></li>
                             <li><Link to="#">DESENVOLVIMENTO</Link></li>
                         </ul>
                     </nav>

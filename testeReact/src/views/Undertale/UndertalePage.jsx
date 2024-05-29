@@ -9,7 +9,7 @@ function UndertalePage(){
             <div className={`${style.wrapper} ${style.articleBody}`} >
                  <div className={style.pageContent}>
                      <div className={style.articleHeadline}>
-                        <h1 className={style.strong}>Undertale</h1>
+                        <h1 className={style.strong}>Criador de Undertale reage a demonstração Deltarune</h1>
                      </div>
                     <div className={style.articleSubHeadline}>
                         <h3 id={style.idDeck}>Do Under ao Tale</h3>
@@ -25,7 +25,10 @@ function UndertalePage(){
                         </article>
 
                     </section>
-                    <div className={styleCard.container}>
+                   
+            
+                </div>
+                <div className={styleCard.containerCard}>
                         <h1>Notícias</h1>
                         <div className={styleCard.card}>
                             <img className={styleCard.cardImage} src={imageEshow} alt="EshowsLogo" />
@@ -38,8 +41,6 @@ function UndertalePage(){
                             <p className={styleCard.cardText}>Horizon Chase Turbo ganha DLC gratuita voltada para novatos   </p>
                         </div>
                     </div>
-            
-                </div>
             </div>
         </div>
 

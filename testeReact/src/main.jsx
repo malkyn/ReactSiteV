@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import UndertalePage from './views/Undertale/UndertalePage.jsx'
 import Home from './views/Home/Home.jsx'
+import Analises from './views/Analises/Analises.jsx'
 
 // Configurar Router
 import {
@@ -25,7 +26,8 @@ const router = createBrowserRouter(
       children:
       [
         {path: "/", element: <Home></Home>},
-        {path: "undertale", element: <UndertalePage/>}
+        {path: "analise", element: <Analises></Analises>},
+        {path: "undertale", element: <UndertalePage/>},
       ]
    },
   ]

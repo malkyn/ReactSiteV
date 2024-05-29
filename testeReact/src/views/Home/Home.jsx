@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 
 
 function Home(){
+
+
     return(
         <div className={style.container}>
             <div className={style.pageContent}>
@@ -14,32 +16,32 @@ function Home(){
                         <article className={style.card}>
                             <Link to="undertale" className={style.thumb}>
                                 <img src={undertalepng} alt="" className={style.thumb}/>
-                                <h3 className={style.caption}>Nova atualização de Undertale trás novidades incríveis</h3>
+                                <h3 style={{backgroundColor: "rgb(0 41 245 / 70%)"}} className={style.caption}>Nova atualização de Undertale trás novidades incríveis</h3>
                             </Link>
                         </article>
                         <article className={style.card}>
                             <Link to="undertale" className={style.thumb}>
                                 <img src={horizonpng} alt="" className={style.thumb}/>
-                                <h3 className={style.caption}>Nova atualização de Undertale trás novidades incríveis</h3>
+                                <h3 style={{backgroundColor: "rgb(245 0 0 / 70%)"}} className={style.caption}>Nova atualização de Undertale trás novidades incríveis</h3>
                             </Link>
                         </article>
                         <article className={style.card}>
                             <Link to="undertale" className={style.thumb}>
                                 <img src={sifu} alt="" className={style.thumb}/>
-                                <h3 className={style.caption}>Nova atualização de Undertale trás novidades incríveis</h3>
+                                <h3 style={{backgroundColor: "rgb(245 158 0 / 70%)"}} className={style.caption}>Nova atualização de Undertale trás novidades incríveis</h3>
                             </Link>
                         </article>
                         <article className={style.card}>
                             <Link to="undertale" className={style.thumb}>
                                 <img src={undertalepng} alt="" className={style.thumb}/>
-                                <h3 className={style.caption}>Nova atualização de Undertale trás novidades incríveis</h3>
+                                <h3 style={{backgroundColor: "rgb(0 41 245 / 70%)"}} className={style.caption}>Nova atualização de Undertale trás novidades incríveis</h3>
                             </Link>
                         </article>
                     </div>
                 </section>
                 <section className={style.hspotlight}>
                     <div className={style.wrap}>
-                    <div className={style.tituloSection}><Link to=""><h2>Veja mais</h2></Link></div>
+                    <div className={style.tituloSection}><Link to="analise"><h2>Veja mais</h2></Link></div>
                         <article className={style.card}>
                             <Link to="undertale" className={style.thumb}>
                                 <img src={undertalepng} alt="" className={style.thumb}/>
